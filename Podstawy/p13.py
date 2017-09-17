@@ -18,3 +18,7 @@ f
 
 print('test',end='...')
 print('dalej')
+
+print('masło'*100);
+
+print(bool(7))
