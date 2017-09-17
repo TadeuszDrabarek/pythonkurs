@@ -108,5 +108,27 @@ x=(('01','01','2018'),('01','04','2018'));
 print("Data ważności "+x[0][0]+'-'+x[0][1]+'-'+x[0][2]);
 print("Data ważności "+x[1][0]+'-'+x[1][1]+'-'+x[1][2]);
 
+rc={1:'I',2:'II',3:'III',4:'IV',5:'V',6:'VI',7:'VII',8:'VIII',9:'IX'};
+print(str(rc));
+
+l=int(input('Podaj cyfre 0-9 :'));
+
+if(l in rc.keys()):
+    print('Wynik ='+rc[l])
+else:
+    print('Zła cyfra!')
+    
+
+
+rc2={9:'I-X',10:'X',11:'XI'};
+
+rc.update(rc2);
+print(rc);
+
+
+
+
+
+
 
 
