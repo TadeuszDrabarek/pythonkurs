@@ -118,8 +118,6 @@ if(l in rc.keys()):
 else:
     print('Zła cyfra!')
     
-
-
 rc2={9:'I-X',10:'X',11:'XI'};
 
 rc.update(rc2);
