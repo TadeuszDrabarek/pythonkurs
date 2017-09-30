@@ -1,0 +1,4 @@
+Ala            |Makota         |Kociara             | 1000.00
+Ela            |Mapsa          |Psiara              | 1500.00
+Ula            |Psula          |S³oniara            | 1567.00
+Ina            |Mina           |Baloniara           | 4567.00
