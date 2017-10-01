@@ -34,6 +34,7 @@ class Lotto:
     def sprawdz(self,test):
         return (self.L&test.L)
 
+'''
 L=Lotto()
 L.losowanie()
 print('Losowanie:',L.sort())
@@ -43,3 +44,4 @@ moje.podaj()
 print('moje      :',moje.sort())
 
 print('Wygrana ? :',L.sprawdz(moje))
+'''
